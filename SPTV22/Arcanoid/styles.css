@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('background.png');
+    background-size: cover;
+    flex-direction: column;
+}
+
+#gameCanvas {
+    border: 1px solid #fff;
+    background-color: rgba(0, 0, 0, 0.5); /* Полупрозрачный фон для улучшения видимости */
+}
+
+#startButton {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #0095DD;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#startButton:hover {
+    background-color: #007BB5;
+}
